@@ -1,6 +1,6 @@
 import {Transport} from './vendor/esptool-js-0.7.0.js';
-import {inspectDevice,loadParts,install,validateManifest} from './flash.mjs?v=20261101-3';
-import {C5Loader} from './c5-loader.mjs?v=20261101-3';
+import {inspectDevice,loadParts,install,validateManifest} from './flash.mjs?v=20261101-4';
+import {C5Loader} from './c5-loader.mjs?v=20261101-4';
 const $=id=>document.getElementById(id);
 let loader,transport,manifest,base,busy=false;
 function status(s){$('status').textContent=s;}
@@ -35,7 +35,7 @@ $('install').onclick=async()=>{
   const files=await loadParts(manifest,base);
   status('Installing. Keep USB connected.');
   await install(loader,manifest,files,(i,w,t)=>{$('progress').value=(i+w/t)*25;status(`Writing file ${i+1}/4 — ${Math.floor(w/t*100)}%`);});
-  $('progress').value=100;status('Installation complete: all four flash hashes verified. Press RESET if the UI does not start.');
+  $('progress').value=100;status('Verified: all four images hashed OK. The board stays in download mode — press its RESET button to start umbravox.');
  }catch(e){status(`Installation stopped: ${e.message}`);log(e.stack||String(e));}
  finally{await disconnect();busy=false;controls();}
 };

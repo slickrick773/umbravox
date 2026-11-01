@@ -1,0 +1,37 @@
+{
+  "boardKey": "nm-cyd-c5-engine",
+  "chip": "ESP32-C5",
+  "flashBytes": 16777216,
+  "commit": "45e7ed3827d0b347353837793ead3f237d9ed715",
+  "parts": [
+    {
+      "path": "bootloader.bin",
+      "offset": 8192,
+      "bytes": 20800,
+      "sha256": "be858af03ab0f9d2c4eb9475a6951e26babe18aafd0185759f80dde5e7738715",
+      "md5": "6d7d27d19381dd265801990e7cdfccfe"
+    },
+    {
+      "path": "partitions.bin",
+      "offset": 32768,
+      "bytes": 3072,
+      "sha256": "6731888b421c3946dac16356659877021e0f46dbd1c55abafa17989eb7265387",
+      "md5": "104aa979b09eff70864574e0343e2f61"
+    },
+    {
+      "path": "boot_app0.bin",
+      "offset": 57344,
+      "bytes": 8192,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+      "md5": "e6327541e2dc394ca2c3b3280ac0f39f"
+    },
+    {
+      "path": "firmware.bin",
+      "offset": 65536,
+      "bytes": 3174592,
+      "sha256": "7bd6fad9bfeb6238f9641b71351fb3d9be4e843b63726ea691cde4429ec72e8d",
+      "md5": "ff5ca11685b55e904adb04ab81b5227d"
+    }
+  ],
+  "packageUrl": "umbravox-45e7ed3-nm-cyd-c5-engine.zip"
+}

@@ -2,7 +2,7 @@
   "boardKey": "xiao-c5-node",
   "chip": "ESP32-C5",
   "flashBytes": 8388608,
-  "commit": "c2bf4e58d33cde62dfa1d7e7aba5de0d89f238cf",
+  "commit": "a66bd3b3cfe3fb0891fee3ec2ab50ba30653e1fd",
   "parts": [
     {
       "path": "bootloader.bin",
@@ -28,10 +28,10 @@
     {
       "path": "firmware.bin",
       "offset": 65536,
-      "bytes": 1041664,
-      "sha256": "0509aac9c4c21e8a48523b2f9a60b0cf07e7ee1f18abc717087fd78c964bf621",
-      "md5": "b415b485e5fd4fa0c39ce6e6fe1755e6"
+      "bytes": 1041920,
+      "sha256": "e8f6c3838949e3fb8c06078188e352eaef7f285fe9854e0d2e384910ca889883",
+      "md5": "f9a0be0087c23eb3665602efea0ff06a"
     }
   ],
-  "packageUrl": "umbravox-c2bf4e5-xiao-c5-node.zip"
+  "packageUrl": "umbravox-a66bd3b-xiao-c5-node.zip"
 }

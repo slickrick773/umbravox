@@ -2,7 +2,7 @@
   "boardKey": "ws-c5-35-engine",
   "chip": "ESP32-C5",
   "flashBytes": 16777216,
-  "commit": "bce092cc3c4c833d4fa895cbac4f863ff898f2ad",
+  "commit": "a66bd3b3cfe3fb0891fee3ec2ab50ba30653e1fd",
   "parts": [
     {
       "path": "bootloader.bin",
@@ -28,10 +28,10 @@
     {
       "path": "firmware.bin",
       "offset": 65536,
-      "bytes": 3175120,
-      "sha256": "cdd4630b10bd7cb35f492b6588e4e07b60bb450f51b7c7584db745d7261ced7b",
-      "md5": "ceac1ec3ea7396debf81673f5c0922b5"
+      "bytes": 3175568,
+      "sha256": "a4ad61ad29e4dd13ec2191b9b2b83123f4a5d205bab2dc8f8683a8fb1a0ea9df",
+      "md5": "11f4e5339dc98f755f67bcbe8e67ea70"
     }
   ],
-  "packageUrl": "umbravox-bce092c-ws-c5-35.zip"
+  "packageUrl": "umbravox-a66bd3b-ws-c5-35-engine.zip"
 }

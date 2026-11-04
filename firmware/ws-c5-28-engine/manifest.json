@@ -2,7 +2,7 @@
   "boardKey": "ws-c5-28-engine",
   "chip": "ESP32-C5",
   "flashBytes": 16777216,
-  "commit": "bce092cc3c4c833d4fa895cbac4f863ff898f2ad",
+  "commit": "a66bd3b3cfe3fb0891fee3ec2ab50ba30653e1fd",
   "parts": [
     {
       "path": "bootloader.bin",
@@ -28,10 +28,10 @@
     {
       "path": "firmware.bin",
       "offset": 65536,
-      "bytes": 3158736,
-      "sha256": "b41f61b082704a71a1c9c2ae9110b2baceaf1b7144e528361f1c0a5ba0991329",
-      "md5": "d5c2d700d7983a6276c3022dfa977f0c"
+      "bytes": 3159184,
+      "sha256": "650172190238dc298743ba5cee6a60916b14d8102a00ec70cb7df0fb1440d583",
+      "md5": "d23ccc37add12fe8c6ea7a11d4350a7a"
     }
   ],
-  "packageUrl": "umbravox-bce092c-ws-c5-28.zip"
+  "packageUrl": "umbravox-a66bd3b-ws-c5-28-engine.zip"
 }
